@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Transmitted | Hacker's Den</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .success-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            color: #00ff00;
+            background: #000;
+            font-family: 'Share Tech Mono', monospace;
+        }
+        .success-icon {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            animation: pulse 2s infinite;
+        }
+        .success-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        .success-message {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: #00ffff;
+        }
+        .back-link {
+            margin-top: 2rem;
+            color: #00ffff;
+            text-decoration: none;
+            border: 1px solid #00ffff;
+            padding: 10px 20px;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background: #00ffff;
+            color: #000;
+            box-shadow: 0 0 20px #00ffff;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="success-container">
+        <div class="success-icon">✓</div>
+        <h1 class="success-title">Message Transmitted Successfully</h1>
+        <p class="success-message">Your secure message has been received through encrypted channels.<br>Expect a response within 24-48 hours.</p>
+        <a href="/" class="back-link">← Return to Base</a>
+    </div>
+</body>
+</html>
